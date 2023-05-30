@@ -1,0 +1,2 @@
+String json = "{\"name\":\"John Doe\",\"age\":30}";
+JsonParser parser = new JsonFactory().createParser(new StringReader(json))
